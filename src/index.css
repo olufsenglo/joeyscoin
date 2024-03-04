@@ -755,3 +755,231 @@ body {
 .shorcut-links a:hover {
     background: rgba(255, 255, 255, 0.145);
 }
+
+/* Main Section */
+.dashboard-container {
+    display: flex;
+    background: var(--blue1);
+}
+
+/* Large Container */
+.large-container {
+    flex-basis: 70%;
+    background: var(--blue1);
+    padding-left: 8%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main-container {
+    background: var(--blue2);
+    border-radius: 15px;
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.nft img {
+    width: 300px;
+    border-radius: 15px;
+}
+
+.creator img {
+    width: 25px;
+    border-radius: 25px;
+}
+
+.creator-1 {
+    /* margin-left: 15px; */
+}
+
+.creator-1 img {
+    border-radius: 5px;
+}
+
+.creator p {
+    color: white;
+    padding-left: 5px;
+}
+
+.title-nft {
+    margin-top: 5px;
+}
+
+.nft-text h1 {
+    color: white;
+}
+
+.detail-nft {
+    padding: 15px 0;
+    background: var(--blue3);
+    margin-top: .5rem;
+    border-radius: 10px;
+    color: white;
+    justify-content: space-between;
+}
+
+.sale-detail {
+    padding-left: 6rem;
+}
+
+.sale-detail span {
+    display: flex;
+}
+
+.sale-detail span p {
+    padding-right: 25px;
+}
+
+.option-nft {
+    justify-content: space-around;
+    margin-top: 20px;
+    background: var(--blue3);
+    border-radius: 15px;
+}
+
+.option-nft i {
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+.option-nft i:hover {
+    color: var(--purp);
+}
+
+.option-nft .button-1 button {
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    background: transparent;
+    transition: all ease 0.3s;
+}
+
+.option-nft .button-1 button:hover {
+    border: 1px solid #8300D8;
+    color: #8300D8;
+}
+
+.option-nft .button-2 {
+    padding-left: 2rem;
+}
+
+.option-nft .button-2 button {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: var(--grad);
+    color: #fff;
+    transition: all ease 0.3s;
+    border: 1px solid transparent;
+}
+
+.option-nft .button-2 button:hover {
+    background: transparent;
+    border: 1px solid #8300D8;
+    color: #8300D8;
+}
+
+.list-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 2rem;
+    margin-top: 20px;
+    padding: 20px;
+    background: var(--blue2);
+    border-radius: 15px;
+}
+
+.nft-list .thumbnail {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.creator-2 {
+    padding-top: 5px;
+}
+
+.creator-2 p {
+    font-size: .8rem;
+}
+
+.nft-list {
+    border-radius: 10px;
+    padding: 4px;    
+    transition: all .3s;
+}
+
+.nft-list:hover {
+    background: rgba(255, 255, 255, 0.145);   
+}
+
+.nft-list-detail {
+    padding-left: 10px;
+}
+
+.list-detail-title {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.more-detail-price p {
+    font-size: .8rem;
+    color: #fff;
+    font-weight: 300;
+}
+
+.more-detail-price h1 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.more-detail-hours {
+    padding-left: 2.5rem;
+}
+
+.more-detail-hours p {
+    color: #fff;
+    font-size: .8rem;
+    font-weight: 300;
+}
+
+.more-detail-hours h1 {
+    font-size: 1rem;
+    font-weight: 500
+}
+
+.show-list {
+    margin-top: 1rem;
+}
+
+.show-list button {
+    display: flex;
+    align-items: center;    
+    padding: 8px 30px;
+    text-align: center;
+    background: var(--grad);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+.show-list button i {
+}
+
+.show-list-icon {
+    margin-left: 5px;
+}
+
+.show-list button:hover {
+    background: none;
+    transform: translateX(10px);
+}
