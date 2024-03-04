@@ -13,6 +13,12 @@
     --qode-third-color: #2b0054;
     --white: #fff;
     --black: #000;  
+
+    --grad: linear-gradient(120deg, #CF00E5 0%, #8300D8 100%);
+    --purp: #CF00E5;
+    --blue1: #000628;
+    --blue2: #020d2d;
+    --blue3: #041130;  
 }
 
 * {
@@ -601,3 +607,14 @@ footer li a:hover {
 }
 
 
+/* Dasboard */
+.dashboard-wrapper {
+    background: var(--blue1);
+    display: flex;
+    flex-direction: column;    
+}
+
+.flex-div {
+    display: flex;
+    align-items: center;
+}
