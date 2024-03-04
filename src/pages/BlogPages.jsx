@@ -7,7 +7,7 @@ import post2 from '../assets/images/blog/post2.png'
 import post3 from '../assets/images/blog/post3.png'
 import post4 from '../assets/images/blog/post4.jpg'
 import post5 from '../assets/images/blog/post5.png'
-import { Banner } from './Banner'
+import { Banner } from '../components/Banner'
 
 export const BlogPages = () => {
     return (

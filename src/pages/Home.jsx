@@ -3,9 +3,9 @@ import { BiBitcoin } from 'react-icons/bi'
 import { MdExplore } from 'react-icons/md'
 import { HiOutlineArrowNarrowRight } from 'react-icons/hi'
 
-import { SliderContent } from './SliderContent'
-import { TrendingAuthor } from './TrendingAuthor'
-import { Banner } from './Banner'
+import { SliderContent } from '../components/SliderContent'
+import { TrendingAuthor } from '../components/TrendingAuthor'
+import { Banner } from '../components/Banner'
 
 import user1 from '../assets/images/user-1.jpg'
 import user2 from '../assets/images/user-2.jpg'
@@ -13,7 +13,7 @@ import user3 from '../assets/images/user-3.jpg'
 import homeImg1 from '../assets/images/homeImg1.png'
 import homeImg2 from '../assets/images/homeImg2.png'
 import homeImg3 from '../assets/images/homeImg3.png'
-import { Collections } from './Collections'
+import { Collections } from '../components/Collections'
 
 export const HomePage = () => {
   return (
@@ -70,7 +70,7 @@ export const Home = () => {
 
 export const HomeWrapper = () => {
   return (
-    <section className="home home-wrapper">
+    <section className="home home-wrapper tagline">
       <div className="container">
         <div className="w-50">
           <h1>
