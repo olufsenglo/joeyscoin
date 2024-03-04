@@ -618,3 +618,102 @@ footer li a:hover {
     display: flex;
     align-items: center;
 }
+
+body {
+    background-color: var(--blue1);
+}
+
+/* Navigation Bar */
+
+.our-nav {
+    padding: 8px 2% 8px 8%;
+    background-color: var(--blue1);
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+
+.nav-icon {
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 3px 8px;
+    display: none;
+}
+
+.nav-icon:hover {
+    background-color: var(--blue2);
+}
+
+.nav-left .search-box {
+    padding: 6px 10px;
+    border-radius: 25px;
+    background: var(--blue2);
+    border: 1px solid rgb(255 255 255 / 31%);
+    transition: all ease 0.3s;
+}
+
+.nav-left .search-box:hover {
+    border-color: #fff;
+}
+
+.nav-left .search-box i {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+.nav-left .search-box input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    padding-left: 5px;
+    color: #fff;
+}
+
+.nav-middle .amount-eth {
+    padding: 4px 8px;
+    background: var(--blue2);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.nav-middle .amount-eth p {
+    padding-left: 5px;
+}
+
+.nav-middle .notif {
+    padding: 4px;
+    background: var(--blue2);
+    border-radius: 5px;
+    font-size: 1.4rem;
+    margin-left: 1rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-right .profil {
+    padding: 4px 8px;
+    background: var(--blue2);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.nav-right .profil img {
+    width: 25px;
+    border-radius: 15px;
+}
+
+.nav-right .profil p {
+    font-size: 0.8rem;
+    margin-right: 4px;
+}
+
+.nav-right .profil i {
+    padding-left: 10px;
+    cursor: pointer;
+}
